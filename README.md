@@ -1,4 +1,7 @@
 🤖 Agentic AI RAG Chatbot
+
+
+
 📌 Project Description
 
 The Agentic AI RAG Chatbot is an advanced intelligent assistant built using Python, LangGraph, and Large Language Models (LLMs). This project demonstrates how modern AI systems can combine reasoning, memory, and information retrieval to deliver accurate, context-aware, and human-like responses.
@@ -10,6 +13,7 @@ This chatbot is also agentic, meaning it can follow multi-step workflows, make d
 This implementation serves as a practical introduction to next-generation AI assistants used in search engines, enterprise knowledge systems, research assistants, and automation platforms.
 
 🚀 Features
+
 
 💬 Intelligent conversational AI powered by LLMs
 
@@ -29,6 +33,7 @@ This implementation serves as a practical introduction to next-generation AI ass
 
 🧰 Technologies Used
 Core Technologies
+
 
 Python – Main programming language
 
@@ -54,6 +59,7 @@ Jupyter Notebook / Python Scripts – Interactive development and testing
 
 ⚙️ Setup Instructions
 
+
 Follow these steps to run the project locally:
 
 1️⃣ Clone the Repository
@@ -77,14 +83,11 @@ export OPENAI_API_KEY="your_api_key_here"
 setx OPENAI_API_KEY "your_api_key_here"
 
 5️⃣ Run the Chatbot
-jupyter notebook Agentic_AI_Chatbot.ipynb
+python -m streamlit run app.py
 
-
-OR
-
-python agentic_chatbot.py
 
 💬 Sample Queries
+
 
 You can ask the chatbot questions such as:
 
@@ -103,6 +106,8 @@ You can ask the chatbot questions such as:
 "What technologies are used in this project?"
 
 🏗️ Architecture Overview
+
+
 
 This system is built using a Retrieval-Augmented Generation (RAG) architecture combined with an Agentic AI workflow.
 
@@ -123,6 +128,8 @@ LLM Response Generation – The OpenAI model generates a context-aware answer
 Final Output – The chatbot returns an accurate and structured response
 
 🧩 System Components
+
+
 Component	Role
 LangGraph	Controls agent reasoning flow and multi-step logic
 FAISS	Stores document embeddings for fast retrieval
@@ -130,7 +137,9 @@ OpenAI LLM	Generates human-like responses
 Python Backend	Connects retrieval, agent workflow, and response generation
 🔮 Future Enhancements
 
-🌐 Web interface using Streamlit or FastAPI
+🌐 Web interface using Streamlit 
+
+
 
 🧠 Long-term memory for conversation history
 
